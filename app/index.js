@@ -32,6 +32,8 @@ export default class InfiniteScroll extends Component {
     this.onMove = this.onMove.bind(this);
     this.onEnd = this.onEnd.bind(this);
     this.getScrollableTarget = this.getScrollableTarget.bind(this);
+    this.renderScrollableContent = this.renderScrollableContent.bind(this);
+    this.renderWithOuterDiv = this.renderWithOuterDiv.bind(this);
   }
 
   componentDidMount() {
